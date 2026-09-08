@@ -131,6 +131,7 @@ h1,
 .link-card:nth-child(2) { animation: fadeIn 0.5s ease 0.2s both; }
 .link-card:nth-child(3) { animation: fadeIn 0.5s ease 0.3s both; }
 .link-card:nth-child(4) { animation: fadeIn 0.5s ease 0.4s both; }
+.link-card:nth-child(5) { animation: fadeIn 0.5s ease 0.5s both; }
 
 /* Footer */
 footer {
