@@ -3,40 +3,357 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Victor Gonzalvez Chara</title>
+  <title>Victor Gonzalvez Chara · Técnico en Programación y Ciberseguridad</title>
+  <meta name="description" content="Técnico Universitario en Programación y estudiante de Licenciatura en Ciberseguridad en la UNAHUR. Desarrollo full stack, redes y seguridad de la información.">
+  <meta name="author" content="Victor Gonzalvez Chara">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Victor Gonzalvez Chara · Técnico en Programación y Ciberseguridad">
+  <meta property="og:description" content="Técnico Universitario en Programación y estudiante de Licenciatura en Ciberseguridad en la UNAHUR. Desarrollo full stack, redes y seguridad de la información.">
+  <meta property="og:locale" content="es_AR">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23238636'/><text x='50' y='55' text-anchor='middle' dominant-baseline='middle' font-size='40' font-family='system-ui' font-weight='700' fill='white'>VG</text></svg>">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Victor Gonzalvez Chara",
+    "jobTitle": "Técnico Universitario en Programación",
+    "sameAs": [
+      "https://github.com/nanoluixi",
+      "https://www.linkedin.com/in/victor-gonzalvez-chara/"
+    ]
+  }
+  </script>
 </head>
 <body>
-  <main>
-    <div class="avatar" aria-hidden="true">VG</div>
-    <h1>Victor Gonzalvez Chara</h1>
-    <p class="subtitle">Técnico en programación · Estudiante de Ciberseguridad</p>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-    <nav class="links">
-      <a href="https://drive.google.com/file/d/1x69-xWGh7XvEcblMvMkYgBi7ScMpy426/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="link-card">
-        <span class="icon">📄</span>
-        <span class="label">Informe</span>
-      </a>
-      <a href="https://github.com/nanoluixi/Trabajo-Pr-ctico-Final-Sistemas-Operativos-Sockets-" target="_blank" rel="noopener noreferrer" class="link-card">
-        <span class="icon">💻</span>
-        <span class="label">Código Sockets</span>
-      </a>
-      <a href="https://www.youtube.com/watch?v=Bh20of7IuiY" target="_blank" rel="noopener noreferrer" class="link-card">
-        <span class="icon">🎥</span>
-        <span class="label">Video Sockets</span>
-      </a>
-      <a href="https://www.linkedin.com/in/victor-gonzalvez-chara/" target="_blank" rel="noopener noreferrer" class="link-card">
-        <span class="icon">💼</span>
-        <span class="label">LinkedIn</span>
-      </a>
-      <a href="https://canva.link/kc2ueiqkju1ijsp" target="_blank" rel="noopener noreferrer" class="link-card">
-        <span class="icon">🎯</span>
-        <span class="label">Presentación</span>
-      </a>
-    </nav>
+  <nav class="topnav" aria-label="Secciones">
+    <div class="topnav-inner">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#stack">Stack</a>
+      <a href="#formacion">Formación</a>
+      <a href="#contacto">Contacto</a>
+      <a class="topnav-cv" href="https://drive.google.com/file/d/17geVnnjsLy7iQnWw4QOP7AQkptSGlUF4/view?usp=sharing" target="_blank" rel="noopener noreferrer">Descargar CV</a>
+    </div>
+  </nav>
 
-    <footer>Hecho con ♥</footer>
+  <main id="contenido">
+    <header class="hero">
+      <div class="avatar" aria-hidden="true" style="--i:0">VG</div>
+      <h1 style="--i:1">Victor Gonzalvez Chara</h1>
+      <p class="hero-role" style="--i:2">Técnico Universitario en Programación · Licenciatura en Ciberseguridad (en curso)</p>
+      <p class="hero-location" style="--i:3">Morón, Buenos Aires</p>
+      <p class="hero-thesis" style="--i:4">Desarrollo full stack, docente y en formación en seguridad de la información.</p>
+      <div class="hero-actions" style="--i:5">
+        <a class="btn btn-primary" href="https://github.com/nanoluixi" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/victor-gonzalvez-chara/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </header>
+
+    <section class="section" id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p class="prose">
+        Técnico Universitario en Programación y estudiante de la Licenciatura en Ciberseguridad en la
+        Universidad Nacional de Hurlingham. Desarrollo full stack con React, Next.js, TypeScript, Express
+        y MongoDB, y aplicaciones cliente-servidor en C#. Actualmente me formo en seguridad de la
+        información, redes y administración de sistemas sobre Linux.
+      </p>
+    </section>
+
+    <section class="section" id="proyectos">
+      <h2>Proyectos</h2>
+
+      <article class="card" style="--i:1">
+        <h3>Viviendas Mercedes</h3>
+        <p class="card-context">Cliente real · En producción · Primer proyecto con Next.js</p>
+        <p class="card-summary">
+          Sitio y catálogo de modelos para una constructora: cada modelo tiene su ficha con planos,
+          carrusel de imágenes y formulario de contacto contextual.
+        </p>
+        <ul class="card-details">
+          <li>SEO completo: metadata por página, datos estructurados de negocio local, sitemap dinámico con las rutas de modelos y robots.</li>
+          <li>Captación de leads con Cloudflare Turnstile validado del lado del servidor, envío de correos transaccionales con Resend y evento de conversión para Google Ads y Meta Pixel.</li>
+          <li>CMS headless propio sobre Strapi con cinco colecciones (casas, categorías, galerías, planos y superficies) y una capa de servicios tipada en el front.</li>
+          <li>Modo mantenimiento controlado por variable de entorno y catálogo filtrable por categoría.</li>
+        </ul>
+        <ul class="chips">
+          <li>Next.js 16</li>
+          <li>React 19</li>
+          <li>TypeScript</li>
+          <li>Tailwind CSS</li>
+          <li>Strapi 5</li>
+          <li>Cloudinary</li>
+        </ul>
+        <div class="card-links">
+          <a class="btn btn-primary" href="https://viviendasmercedes.com.ar" target="_blank" rel="noopener noreferrer">Ver sitio en vivo</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:2">
+        <h3>Medicina Integral · Portal de afiliados</h3>
+        <p class="card-context">Proyecto en equipo (5 personas) · Docente en rol de stakeholder y scrum master</p>
+        <p class="card-summary">
+          Sistema de gestión para una obra social: turnos, reintegros, autorizaciones, recetas y cartilla
+          de prestadores, con reglas de negocio reales (estados de trámite, planes médicos, grupo familiar).
+        </p>
+        <ul class="card-details">
+          <li>Diseñé y construí 7 componentes de card reutilizables y 12 piezas de composición compartidas por todo el sistema, a partir de una card base adaptada a cada necesidad.</li>
+          <li>Desarrollo principal de las páginas de Turnos y Recetas.</li>
+          <li>Lógica de permisos por rol: al solicitar un turno, la interfaz habilita únicamente los familiares que el rol de la sesión permite.</li>
+          <li>Metodología tipo Scrum: fichas de inicio y cierre de sprint y reuniones semanales de avance con el docente en rol de stakeholder.</li>
+        </ul>
+        <ul class="chips">
+          <li>React 19</li>
+          <li>Vite</li>
+          <li>MUI</li>
+          <li>TanStack Query</li>
+          <li>Zod</li>
+          <li>Express 5</li>
+          <li>TypeScript</li>
+          <li>MongoDB</li>
+          <li>JWT</li>
+        </ul>
+        <div class="card-links">
+          <a class="btn btn-primary" href="https://github.com/DesApp-2025c2-Grupo-9/MedicinaIntegral.AfiliadosGrupo9-frontend/tree/dev" target="_blank" rel="noopener noreferrer">Ver código (rama dev)</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:3">
+        <h3>ILyPC · UNAHUR</h3>
+        <p class="card-context">Equipo de producción de materiales (acreditado en el sitio del proyecto) · Rediseño curricular</p>
+        <p class="card-summary">
+          Reformulación de la materia introductoria a las carreras de informática: se reemplazaron las
+          guías en papel por secuencias de desafíos en Pilas Bloques, una plataforma de programación por
+          bloques que saca la sintaxis del medio para enfocar la comprensión de problemas.
+        </p>
+        <ul class="card-details">
+          <li>El proyecto publicado reúne 6 guías, 7 presentaciones y 5 trabajos prácticos con sus consignas.</li>
+          <li>Participé en la producción de materiales, con foco en ejercicios de práctica e integradores para parciales y en apuntes sobre el funcionamiento de los componentes.</li>
+          <li>Trabajo coordinado con el equipo docente, con reuniones semanales de organización y seguimiento de la implementación en la cursada.</li>
+        </ul>
+        <ul class="chips">
+          <li>Pilas Bloques</li>
+          <li>Diseño de materiales</li>
+          <li>Docencia universitaria</li>
+        </ul>
+        <div class="card-links">
+          <a class="btn btn-primary" href="https://luisa-bravo.github.io/ILYPC/" target="_blank" rel="noopener noreferrer">Ver el proyecto</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:4">
+        <h3>Transferencia de archivos por sockets</h3>
+        <p class="card-context">Proyecto integrador · Sistemas Operativos · .NET</p>
+        <p class="card-summary">
+          Aplicación cliente-servidor de transferencia de archivos sobre sockets TCP, con una biblioteca
+          común compartida entre cliente y servidor.
+        </p>
+        <ul class="card-details">
+          <li>Tres proyectos .NET: cliente, servidor y una biblioteca compartida, con la lógica de cada extremo separada en servicios.</li>
+          <li>Documentación del proyecto en el repositorio: plan de trabajo, contexto del problema y guía de uso.</li>
+        </ul>
+        <ul class="chips">
+          <li>C#</li>
+          <li>.NET</li>
+          <li>Sockets TCP</li>
+        </ul>
+        <div class="card-links">
+          <a class="btn btn-primary" href="https://github.com/nanoluixi/Trabajo-Pr-ctico-Final-Sistemas-Operativos-Sockets-" target="_blank" rel="noopener noreferrer">Código</a>
+          <a class="btn" href="https://www.youtube.com/watch?v=Bh20of7IuiY" target="_blank" rel="noopener noreferrer">Video</a>
+          <a class="btn" href="https://drive.google.com/file/d/1x69-xWGh7XvEcblMvMkYgBi7ScMpy426/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Informe</a>
+          <a class="btn" href="https://canva.link/kc2ueiqkju1ijsp" target="_blank" rel="noopener noreferrer">Presentación</a>
+        </div>
+      </article>
+
+      <article class="card" style="--i:5">
+        <h3>VPN y ruteo entre sedes</h3>
+        <p class="card-context">Proyecto final · Redes de Computadoras · Caso de estudio</p>
+        <p class="card-summary">
+          Diseño e implementación de una red simulada con cuatro sedes interconectadas, ruteo estático y
+          dinámico, y una VPN con cifrado de datos entre dos de ellas, con acceso habilitado solo entre
+          equipos específicos de cada red.
+        </p>
+        <ul class="card-details">
+          <li>Seguridad y redes: VLANs, VPN, protocolos de enrutamiento dinámico y control de acceso entre segmentos.</li>
+          <li>Servicios implementados en la simulación: DHCP, DNS, FTP, HTTP, correo (SMTP y POP3) y enrutamiento con RIP.</li>
+          <li>Configuración de routers, switches, access point y endpoints.</li>
+        </ul>
+        <ul class="chips">
+          <li>Packet Tracer</li>
+          <li>VPN</li>
+          <li>VLAN</li>
+          <li>RIP</li>
+          <li>TCP/IP</li>
+        </ul>
+        <p class="card-note">
+          Topología no publicada: la simulación replica una red real, por lo que el archivo del proyecto
+          no se expone.
+        </p>
+      </article>
+    </section>
+
+    <section class="section" id="experiencia">
+      <h2>Experiencia</h2>
+
+      <article class="exp-item">
+        <h3>Ayudante Docente</h3>
+        <p class="exp-meta">Universidad Nacional de Hurlingham · 2024 – 2026</p>
+        <ul class="card-details">
+          <li>Dictado de clases presenciales y virtuales, y tutorías individuales y grupales.</li>
+          <li>Corrección y asistencia en trabajos prácticos, y resolución de consultas técnicas.</li>
+          <li>Participación en el equipo de producción de materiales del rediseño de la materia introductoria a las carreras de informática.</li>
+        </ul>
+      </article>
+
+      <article class="exp-item">
+        <h3>Desarrollador Web Freelance</h3>
+        <p class="exp-meta">2026</p>
+        <ul class="card-details">
+          <li>Desarrollo de sitio web para una inmobiliaria con Next.js, TypeScript y Tailwind CSS.</li>
+          <li>Integración con Strapi CMS, despliegue en Vercel y Railway, y optimización de SEO con administración de contenido.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="stack">
+      <h2>Stack</h2>
+      <div class="stack-grid">
+        <div class="stack-group">
+          <h3>Lenguajes</h3>
+          <ul class="chips">
+            <li>C#</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <h3>Frameworks y librerías</h3>
+          <ul class="chips">
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Express</li>
+            <li>Flask</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <h3>Bases de datos</h3>
+          <ul class="chips">
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>MariaDB</li>
+            <li>SQL Server</li>
+            <li>SQLite</li>
+            <li>Oracle</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <h3>Metodologías</h3>
+          <ul class="chips">
+            <li>Scrum</li>
+            <li>Test Driven Development (TDD)</li>
+            <li>Spec-Driven Development (SDD)</li>
+          </ul>
+        </div>
+        <div class="stack-group stack-group--wide">
+          <h3>Herramientas</h3>
+          <ul class="chips">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Docker</li>
+            <li>Linux</li>
+            <li>Node.js</li>
+            <li>Strapi CMS</li>
+            <li>Railway</li>
+            <li>Vercel</li>
+            <li>Visual Studio</li>
+            <li>VS Code</li>
+            <li>Eclipse</li>
+            <li>Jupyter Notebook</li>
+            <li>Postman</li>
+            <li>Cisco Packet Tracer</li>
+            <li>Wireshark</li>
+            <li>Obsidian</li>
+            <li>WSL</li>
+            <li>Remmina</li>
+            <li>Tailscale</li>
+            <li>VirtualBox</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formacion">
+      <h2>Formación</h2>
+
+      <h3>En curso</h3>
+      <article class="edu-item">
+        <h4>Licenciatura en Ciberseguridad</h4>
+        <p class="exp-meta">Universidad Nacional de Hurlingham · En curso</p>
+        <p class="edu-note">Título intermedio: Técnico en Redes y Operaciones Informáticas.</p>
+        <ul class="subject-list">
+          <li>
+            <p class="subject-name">Seguridad de la Información</p>
+            <p class="subject-desc">
+              Criptografía simétrica y asimétrica, funciones de hash, PKI y firma digital; análisis y
+              tratamiento de riesgo, SGSI y familia ISO/IEC 27000; seguridad en redes con firewalls,
+              VLAN, VPN e IPSec; detección de vulnerabilidades con CVSS y fases del hacking ético;
+              auditoría y análisis forense con cadena de custodia; seguridad en aplicaciones y OWASP
+              Top 10. Prácticas con Kali Linux.
+            </p>
+          </li>
+          <li>
+            <p class="subject-name">Laboratorio de Sistemas Operativos y Redes</p>
+            <p class="subject-desc">
+              Administración de sistemas Linux: instalación y mantenimiento, configuración de red,
+              firewalls, DNS, DHCP y SSH; servidores web y de aplicaciones, motores de bases de datos,
+              backups automatizados y control de versiones; monitoreo de red con SNMP; virtualización,
+              contenedores y scripting de shell.
+            </p>
+          </li>
+          <li>
+            <p class="subject-name">Taller de Intérpretes de Comandos</p>
+            <p class="subject-desc">Scripting en Bash y manejo de terminal.</p>
+          </li>
+          <li>
+            <p class="subject-name">Introducción a los Sistemas de Comunicación y Seguridad</p>
+            <p class="subject-desc">Modelos OSI y TCP/IP, protocolos y medios de transmisión.</p>
+          </li>
+        </ul>
+        <p class="edu-note">
+          Cursando materias de tramo avanzado por correlativas de mi título previo, junto a materias
+          iniciales de la carrera.
+        </p>
+      </article>
+
+      <h3>Títulos y certificaciones</h3>
+      <ul class="credential-list">
+        <li>Técnico Universitario en Programación · Universidad Nacional de Hurlingham · 2022 – 2025</li>
+        <li>AWS Cloud Practitioner · 2022</li>
+        <li>Administración de Bases de Datos (SQL y PL/SQL) · 2024</li>
+        <li>C# Nivel 1 y 2 · maxiprograma.com · 2022</li>
+        <li>Inglés · UNC y CUI UBA · 2023 – 2024</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contacto">
+      <h2>Contacto</h2>
+      <p class="prose">Podés escribirme por cualquiera de estos canales, o bajar mi CV para el detalle completo de mi formación y experiencia.</p>
+      <div class="card-links">
+        <a class="btn btn-primary" href="https://drive.google.com/file/d/17geVnnjsLy7iQnWw4QOP7AQkptSGlUF4/view?usp=sharing" target="_blank" rel="noopener noreferrer">Descargar CV</a>
+        <a class="btn" href="https://github.com/nanoluixi" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/victor-gonzalvez-chara/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <p>Victor Gonzalvez Chara · Hecho con ♥</p>
+  </footer>
 </body>
 </html>
